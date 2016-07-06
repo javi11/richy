@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: 3cdeba4ba02610d4ca73c58a5296fd6a
+timeCreated: 1467578504
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: saltando_0
+    21300002: saltando_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: saltando_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 29
+        width: 202
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.4, y: 98}
+        - {x: -40.4, y: 6.000002}
+        - {x: -35.4, y: 0.0000019073486}
+        - {x: 23.599998, y: 0.0000019073486}
+        - {x: 41.6, y: 50}
+        - {x: 41.6, y: 97}
+        - {x: 40.6, y: 98}
+    - name: saltando_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 29
+        width: 202
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.600006, y: 12.000002}
+        - {x: 28.600006, y: 42}
+        - {x: 24.600006, y: 43}
+        - {x: 20.600006, y: 43}
+        - {x: 18.600006, y: 41}
+        - {x: 18.600006, y: 43}
+        - {x: 26.600006, y: 43}
+        - {x: 41.600006, y: 74}
+        - {x: 41.600006, y: 99}
+        - {x: 29.600006, y: 110}
+        - {x: -40.399994, y: 110}
+        - {x: -40.399994, y: 7.000002}
+        - {x: -28.399994, y: 0.0000019073486}
+        - {x: -13.399994, y: 0.0000019073486}
+        - {x: -13.399994, y: 1.0000019}
+        - {x: -8.399994, y: 0.0000019073486}
+        - {x: 15.600006, y: 0.0000019073486}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

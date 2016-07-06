@@ -1,0 +1,30 @@
+# =============== #
+# Unity generated #
+# =============== #
+juego_richy/Temp/
+juego_richy/.vs/
+juego_richy/Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+juego_richy/ExportedObj/
+juego_richy/obj/
+juego_richy/*.svd
+juego_richy/*.userprefs
+juego_richy/*.pidb
+juego_richy/*.suo
+juego_richy/*.user
+juego_richy/*.unityproj
+juego_richy/*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+juego_richy/.DS_Store
+juego_richy/.DS_Store?
+juego_richy/._*
+juego_richy/.Spotlight-V100
+juego_richy/.Trashes
+juego_richy/ehthumbs.db
+juego_richy/Thumbs.db
