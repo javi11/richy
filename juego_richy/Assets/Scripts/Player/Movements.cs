@@ -1,21 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movimiento : MonoBehaviour
+public class Movements : MonoBehaviour
 {
 
     public Transform foot; //pie
     public Transform head; //cabeza
     public LayerMask floor; //piso
-    public bool isDuck = false; //cambiar
-    public bool inFloor = false; //en suelo
+    public LayerMask water;
+
+    public bool isDuck = false;
+    public bool inFloor = false;
+    public bool isSwimming = false;
 
     private const float FOOT_RADIOUS = 0.08f;
     private const float HEAD_RADIOUS = 0.2f;
     private const float SPEED_X = 10;
     private const float JUMP_POWER = 35f;
+    private const float SWIMMING_POWER = 50f;
 
-    private int jumpCounter = 5; //cuenta de salto
+    private int jumpCounter = 5;
+    private int swimCounter = 5;
+
     private Vector2 initialColliderOffset;
 
     // Use this for initialization
@@ -31,7 +37,7 @@ public class Movimiento : MonoBehaviour
         bool roof = Physics2D.OverlapCircle(head.position, HEAD_RADIOUS, floor);
 
 
-        if (Input.GetKey("down"))
+        if (!isSwimming && Input.GetKey("down"))
         {
             if (!isDuck)
             {
@@ -80,10 +86,31 @@ public class Movimiento : MonoBehaviour
         }
     }
 
+    void swimming()
+    {
+        bool inWater = Physics2D.OverlapCircle(foot.position, FOOT_RADIOUS, water);
+        if (inWater)
+        {
+            isSwimming = true;
+            if (Input.GetKey("up"))
+            {
+                //instrucciones
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(gameObject.GetComponent<Rigidbody2D>().velocity.x, 0);
+                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, SWIMMING_POWER * swimCounter));
+            }
+        }
+        else
+        {
+            swimCounter = 5;
+            isSwimming = false;
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
 
+        this.swimming();
         this.duck();
         this.jump();
         this.moveX();

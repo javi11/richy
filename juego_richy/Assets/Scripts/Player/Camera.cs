@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class camara : MonoBehaviour {
+public class Camera : MonoBehaviour {
     public Transform player; //jugador
     private Vector3 positionCamera; //posición camara
 	// Use this for initialization
@@ -9,7 +9,7 @@ public class camara : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate() {
         positionCamera = new Vector3(player.transform.position.x,player.transform.position.y,transform.position.z);
         transform.position = Vector3.Lerp(transform.position, positionCamera, 10*Time.deltaTime);
 	}

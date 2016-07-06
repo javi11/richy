@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tierra_Vertical : MonoBehaviour
+public class Vertical : MonoBehaviour
 {
-    public float plataformSped = 0.5f;
+    public float plataformSped = 1.5f;
     float startPoint;
-    public float limit = 0.5f;
+    public float limit = 1f;
     bool dir = true;
     // Use this for initialization
     void Start()
@@ -14,7 +14,7 @@ public class Tierra_Vertical : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (dir)
         {

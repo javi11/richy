@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class agua : MonoBehaviour
+public class Water : MonoBehaviour
 {
     public float gravityW = 0.5f;
     public float massW = 3f;

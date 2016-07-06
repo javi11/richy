@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class superficie : MonoBehaviour
+public class Surface : MonoBehaviour
 {
 
 

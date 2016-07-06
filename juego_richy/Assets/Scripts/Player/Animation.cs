@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Animacion : MonoBehaviour
+public class Animation : MonoBehaviour
 {
     public Animator anim;
     // Use this for initialization
@@ -11,12 +11,13 @@ public class Animacion : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        anim.SetFloat("velocidad", Mathf.Abs(gameObject.GetComponent<Rigidbody2D>().velocity.x));
-        anim.SetBool("ground", gameObject.GetComponent<Movimiento>().inFloor);
-        anim.SetBool("water", gameObject.GetComponent<Nadar>().inWater);
-        anim.SetBool("isDuck", gameObject.GetComponent<Movimiento>().isDuck);
+        anim.SetFloat("speed", Mathf.Abs(gameObject.GetComponent<Rigidbody2D>().velocity.x));
+        anim.SetBool("inFloor", gameObject.GetComponent<Movements>().inFloor);
+        anim.SetBool("isSwimming", gameObject.GetComponent<Movements>().isSwimming);
+        anim.SetBool("isDuck", gameObject.GetComponent<Movements>().isDuck);
+
         if (gameObject.GetComponent<Rigidbody2D>().velocity.x > 0) {
             gameObject.transform.localScale= new Vector3(1,1,1);
         }

@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 420394}
   m_Layer: 8
-  m_Name: Cabeza
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,7 +24,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 482776}
   m_Layer: 8
-  m_Name: Pie
+  m_Name: Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8aa13f47bc03a64eac76c543bd1ac59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityX: 10
+  foot: {fileID: 0}
+  head: {fileID: 0}
+  floor:
+    serializedVersion: 2
+    m_Bits: 0
+  water:
+    serializedVersion: 2
+    m_Bits: 0
+  isDuck: 0
+  inFloor: 0
+  isSwimming: 0
 --- !u!114 &11440950
 MonoBehaviour:
   m_ObjectHideFlags: 1

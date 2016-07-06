@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Horizontal : MonoBehaviour
 {
-    public float plataformSped = 1.5f;
+    public float plataformSpeed = 1.5f;
     float startPoint;
     public float limit = 1f;
     bool dir = true;
@@ -14,13 +14,13 @@ public class Horizontal : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (dir)
         {
             if (transform.position.x < startPoint + limit)
             {
-                transform.position = transform.position + new Vector3(plataformSped * Time.deltaTime, 0, 0);
+                transform.position = transform.position + new Vector3(plataformSpeed * Time.deltaTime, 0, 0);
             }
             else
             {
@@ -31,7 +31,7 @@ public class Horizontal : MonoBehaviour
         {
             if (transform.position.x > startPoint - limit)
             {
-                transform.position = transform.position - new Vector3(plataformSped * Time.deltaTime, 0, 0);
+                transform.position = transform.position - new Vector3(plataformSpeed * Time.deltaTime, 0, 0);
             }
             else
             {

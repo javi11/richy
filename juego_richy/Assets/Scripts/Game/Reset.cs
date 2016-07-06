@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class reinicio : MonoBehaviour {
+public class Reset : MonoBehaviour {
 
 
 	void OnTriggerEnter2D (Collider2D obj) {
