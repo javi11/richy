@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 459884362a22fff43a30cc1e78f23fbc
-timeCreated: 1467473448
+guid: 8ead8f3a33d81174fa998423489beb70
+timeCreated: 1467893435
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: New Piskel (1)_0
-    21300002: New Piskel (1)_1
+    21300000: agachado_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +28,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 256
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -52,43 +51,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: New Piskel (1)_0
+    - name: agachado_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 29
-        width: 202
-        height: 272
+        x: 14
+        y: 6
+        width: 40
+        height: 54
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -40.4, y: 110}
-        - {x: -40.4, y: 9.000002}
-        - {x: -34.4, y: 0.0000019073486}
-        - {x: 19.599998, y: 0.0000019073486}
-        - {x: 41.6, y: 77}
-        - {x: 41.6, y: 95}
-        - {x: 29.599998, y: 110}
-    - name: New Piskel (1)_1
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 29
-        width: 202
-        height: 272
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 37.600006, y: 110}
-        - {x: -40.399994, y: 110}
-        - {x: -40.399994, y: 18.000002}
-        - {x: -26.399994, y: 0.0000019073486}
-        - {x: 5.600006, y: 0.0000019073486}
-        - {x: 24.600006, y: 10.000002}
-        - {x: 41.600006, y: 72}
-        - {x: 41.600006, y: 102}
+      - - {x: -20, y: 54}
+        - {x: -20, y: 6}
+        - {x: -14, y: 0}
+        - {x: 10, y: 0}
+        - {x: 20, y: 24}
+        - {x: 20, y: 54}
     outline: []
   spritePackingTag: 
   userData: 

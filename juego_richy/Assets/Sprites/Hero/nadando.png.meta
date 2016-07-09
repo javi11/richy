@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: f36b4ce711a4502469be85f0a23174f7
-timeCreated: 1467657522
+guid: f1ca951259fedf44aaf3c5db68368bfd
+timeCreated: 1467901351
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: nadando4_0
-    21300002: nadando4_1
-    21300004: nadando4_2
-    21300006: nadando4_3
+    21300000: nadando_0
+    21300002: nadando_1
+    21300004: nadando_2
+    21300006: nadando_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +31,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 256
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -54,94 +54,92 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: nadando4_0
+    - name: nadando_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 320
-        height: 320
+        y: 4
+        width: 64
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28, y: 53}
-        - {x: 20, y: 62}
-        - {x: -14, y: 62}
-        - {x: -24, y: 60}
-        - {x: -24, y: 5}
-        - {x: -14, y: 4}
-        - {x: -3, y: 4}
-        - {x: 4, y: 8}
-        - {x: 23, y: 26}
-        - {x: 28, y: 45}
-    - name: nadando4_1
+      - - {x: 28, y: 42}
+        - {x: 28, y: 49}
+        - {x: 17, y: 58}
+        - {x: -14, y: 58}
+        - {x: -24, y: 54}
+        - {x: -24, y: 0}
+        - {x: -2, y: 0}
+        - {x: 5, y: 5}
+        - {x: 24, y: 25}
+        - {x: 23, y: 29}
+    - name: nadando_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 320
-        height: 320
+        x: 64
+        y: 4
+        width: 64
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 17, y: 62}
-        - {x: -14, y: 62}
-        - {x: -22, y: 57}
-        - {x: -24, y: 39}
-        - {x: -24, y: 4}
-        - {x: -2, y: 4}
-        - {x: 15, y: 21}
-        - {x: 28, y: 47}
+      - - {x: -15, y: 58}
+        - {x: -24, y: 56}
+        - {x: -24, y: 0}
+        - {x: 0, y: 0}
+        - {x: 8, y: 1}
+        - {x: 28, y: 37}
         - {x: 28, y: 53}
-      - - {x: 22, y: 42}
-        - {x: 18, y: 38}
-        - {x: 18, y: 36}
-        - {x: 22, y: 32}
-        - {x: 24, y: 32}
-        - {x: 28, y: 36}
-        - {x: 28, y: 38}
-        - {x: 24, y: 42}
-    - name: nadando4_2
+        - {x: 23, y: 58}
+      - - {x: 24, y: 38}
+        - {x: 20, y: 34}
+        - {x: 20, y: 32}
+        - {x: 24, y: 28}
+        - {x: 26, y: 28}
+        - {x: 30, y: 32}
+        - {x: 30, y: 34}
+        - {x: 26, y: 38}
+    - name: nadando_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 320
-        height: 320
+        x: 128
+        y: 4
+        width: 64
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 15, y: 62}
-        - {x: -20, y: 62}
-        - {x: -24, y: 58}
-        - {x: -24, y: 5}
-        - {x: -22, y: 4}
-        - {x: 1, y: 4}
-        - {x: 32, y: 40}
-        - {x: 32, y: 52}
-        - {x: 28, y: 60}
-    - name: nadando4_3
+      - - {x: 21, y: 58}
+        - {x: -15, y: 58}
+        - {x: -24, y: 57}
+        - {x: -24, y: 0}
+        - {x: 9, y: 0}
+        - {x: 10, y: 1}
+        - {x: 32, y: 35}
+        - {x: 32, y: 51}
+    - name: nadando_3
       rect:
         serializedVersion: 2
-        x: 960
-        y: 0
-        width: 320
-        height: 320
+        x: 192
+        y: 4
+        width: 64
+        height: 60
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19, y: 62}
-        - {x: -22, y: 57}
-        - {x: -24, y: 39}
-        - {x: -24, y: 4}
-        - {x: 4, y: 4}
+      - - {x: -20, y: 58}
+        - {x: -24, y: 45}
+        - {x: -24, y: 0}
+        - {x: -6, y: 0}
+        - {x: 8, y: 2}
         - {x: 32, y: 40}
-        - {x: 32, y: 59}
-        - {x: 15, y: 62}
+        - {x: 32, y: 56}
+        - {x: 22, y: 58}
     outline: []
   spritePackingTag: 
   userData: 

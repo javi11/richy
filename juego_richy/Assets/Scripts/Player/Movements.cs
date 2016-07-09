@@ -41,7 +41,7 @@ public class Movements : MonoBehaviour
         {
             if (!isDuck)
             {
-                gameObject.GetComponent<BoxCollider2D>().offset = new Vector2(-0.16f, 0.85f);
+                gameObject.GetComponent<BoxCollider2D>().offset = new Vector2(-0.023f, 0.27f);
                 isDuck = true;
             }
         }

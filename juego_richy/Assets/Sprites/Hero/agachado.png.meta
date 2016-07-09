@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: fbc8e3c405b8e0749a7730c4f366a380
-timeCreated: 1467451706
+guid: c3ea5132f468ef543bd62fea214b7a42
+timeCreated: 1468073538
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: respirando_0
-    21300002: respirando_1
+    21300000: agachado_0
+    21300002: agachado_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +29,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 256
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -52,43 +52,40 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: respirando_0
+    - name: agachado_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 29
-        width: 202
-        height: 272
+        x: 14
+        y: 6
+        width: 40
+        height: 54
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -40.4, y: 110}
-        - {x: -40.4, y: 3.000002}
-        - {x: -30.400002, y: 0.0000019073486}
-        - {x: 36.6, y: 0.0000019073486}
-        - {x: 41.6, y: 3.000002}
-        - {x: 41.6, y: 102}
-        - {x: 38.6, y: 110}
-    - name: respirando_1
+      - - {x: -20, y: 54}
+        - {x: -20, y: 2}
+        - {x: -16, y: 0}
+        - {x: 9, y: 0}
+        - {x: 20, y: 32}
+        - {x: 20, y: 54}
+    - name: agachado_1
       rect:
         serializedVersion: 2
-        x: 389
-        y: 29
-        width: 202
-        height: 282
+        x: 78
+        y: 6
+        width: 40
+        height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 33.600006, y: 114}
-        - {x: -40.399994, y: 114}
-        - {x: -40.399994, y: 14.000002}
-        - {x: -26.399994, y: 0.0000019073486}
-        - {x: 22.600006, y: 0.0000019073486}
-        - {x: 41.600006, y: 10.000002}
-        - {x: 41.600006, y: 107}
-        - {x: 40.600006, y: 110}
+      - - {x: -20, y: 42}
+        - {x: -20, y: 5}
+        - {x: -14, y: 0}
+        - {x: 13, y: 0}
+        - {x: 20, y: 19}
+        - {x: 20, y: 42}
     outline: []
   spritePackingTag: 
   userData: 
