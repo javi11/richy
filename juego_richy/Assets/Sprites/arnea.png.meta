@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 836fdddf6a352534d9e2cd9a192a6cce
+timeCreated: 1468080272
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: arnea_0
+    21300002: arnea_1
+    21300004: arnea_2
+    21300006: arnea_3
+    21300008: arnea_4
+    21300010: arnea_5
+    21300012: arnea_6
+    21300014: arnea_7
+    21300016: arnea_8
+    21300018: arnea_9
+    21300020: arnea_10
+    21300022: arnea_11
+    21300024: arnea_12
+    21300026: arnea_13
+    21300028: arnea_14
+    21300030: arnea_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: arnea_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: -16}
+        - {x: -47, y: -18}
+        - {x: -30, y: -18}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -16}
+        - {x: -49, y: -24}
+        - {x: -44, y: -24}
+        - {x: -43, y: -23}
+        - {x: -43, y: -17}
+        - {x: -44, y: -16}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -22}
+        - {x: -49, y: -30}
+        - {x: -44, y: -30}
+        - {x: -43, y: -29}
+        - {x: -43, y: -23}
+        - {x: -44, y: -22}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -28}
+        - {x: -49, y: -36}
+        - {x: -45, y: -36}
+        - {x: -43, y: -35}
+        - {x: -43, y: -29}
+        - {x: -45, y: -28}
+      - - {x: -63, y: -16}
+        - {x: -43, y: -18}
+        - {x: 0, y: -18}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_4
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -34}
+        - {x: -49, y: -36}
+        - {x: -49, y: -40}
+        - {x: -47, y: -42}
+        - {x: -45, y: -42}
+        - {x: -43, y: -40}
+        - {x: -43, y: -36}
+        - {x: -45, y: -34}
+      - - {x: -37, y: -16}
+        - {x: -37, y: -24}
+        - {x: -33, y: -24}
+        - {x: -31, y: -23}
+        - {x: -31, y: -16}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_5
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -24}
+        - {x: -36, y: -24}
+        - {x: -37, y: -26}
+        - {x: -37, y: -30}
+        - {x: -35, y: -32}
+        - {x: -33, y: -32}
+        - {x: -31, y: -30}
+        - {x: -31, y: -25}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_6
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -30}
+        - {x: -36, y: -30}
+        - {x: -37, y: -32}
+        - {x: -37, y: -36}
+        - {x: -35, y: -38}
+        - {x: -33, y: -38}
+        - {x: -31, y: -36}
+        - {x: -31, y: -31}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_7
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -36}
+        - {x: -37, y: -38}
+        - {x: -37, y: -42}
+        - {x: -35, y: -44}
+        - {x: -33, y: -44}
+        - {x: -31, y: -42}
+        - {x: -31, y: -38}
+        - {x: -33, y: -36}
+      - - {x: -63, y: -16}
+        - {x: -38, y: -18}
+        - {x: 8, y: -18}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_8
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -18}
+        - {x: -25, y: -20}
+        - {x: -25, y: -24}
+        - {x: -23, y: -26}
+        - {x: -21, y: -26}
+        - {x: -19, y: -24}
+        - {x: -19, y: -20}
+        - {x: -21, y: -18}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_9
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -24}
+        - {x: -25, y: -26}
+        - {x: -25, y: -30}
+        - {x: -23, y: -32}
+        - {x: -21, y: -32}
+        - {x: -19, y: -30}
+        - {x: -19, y: -26}
+        - {x: -21, y: -24}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_10
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -30}
+        - {x: -25, y: -32}
+        - {x: -25, y: -37}
+        - {x: -23, y: -38}
+        - {x: -21, y: -38}
+        - {x: -19, y: -37}
+        - {x: -19, y: -30}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_11
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -36}
+        - {x: -25, y: -38}
+        - {x: -25, y: -42}
+        - {x: -23, y: -44}
+        - {x: -21, y: -44}
+        - {x: -19, y: -42}
+        - {x: -19, y: -38}
+        - {x: -21, y: -36}
+      - - {x: -63, y: -16}
+        - {x: -11, y: -18}
+        - {x: -5, y: -18}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_12
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -13, y: -20}
+        - {x: -13, y: -24}
+        - {x: -11, y: -26}
+        - {x: -9, y: -26}
+        - {x: -7, y: -24}
+        - {x: -7, y: -20}
+        - {x: -9, y: -18}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_13
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -24}
+        - {x: -13, y: -26}
+        - {x: -13, y: -30}
+        - {x: -11, y: -32}
+        - {x: -9, y: -32}
+        - {x: -7, y: -30}
+        - {x: -7, y: -26}
+        - {x: -9, y: -24}
+      - - {x: -63, y: -16}
+        - {x: -21, y: -18}
+        - {x: 22, y: -18}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_14
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -18}
+        - {x: -1, y: -19}
+        - {x: -1, y: -26}
+        - {x: 5, y: -26}
+        - {x: 5, y: -18}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    - name: arnea_15
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 0
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -24}
+        - {x: -1, y: -31}
+        - {x: 1, y: -32}
+        - {x: 5, y: -32}
+        - {x: 5, y: -24}
+      - - {x: -63, y: -16}
+        - {x: 63, y: -16}
+        - {x: 63, y: 10}
+        - {x: -63, y: 10}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
