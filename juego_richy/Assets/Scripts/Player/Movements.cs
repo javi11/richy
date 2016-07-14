@@ -17,7 +17,7 @@ public class Movements : MonoBehaviour
     private const float HEAD_RADIOUS = 0.2f;
     private const float SPEED_X = 5;
     private const float JUMP_POWER = 18f;
-    private const float SWIMMING_POWER = 50f;
+    private const float SWIMMING_POWER = 30f;
 
     private int jumpCounter = 5;
     private int swimCounter = 5;
