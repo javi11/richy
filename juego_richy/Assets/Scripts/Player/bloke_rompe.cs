@@ -10,7 +10,7 @@ public class bloke_rompe : MonoBehaviour {
         if (other.gameObject.tag == "rompe")
         {
             Instantiate(explosion, other.transform.position, Quaternion.identity);
-            Destroy(other.gameObject);
+            Destroy(other.gameObject,0.05f);
         }
     }
 	

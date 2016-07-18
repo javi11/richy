@@ -45,11 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enmigo\Enemigo.cs" />
+     <Compile Include="Assets\Scripts\Enmigo\Muere.cs" />
      <Compile Include="Assets\Scripts\Game\Reset.cs" />
      <Compile Include="Assets\Scripts\Platforms\Horizontal.cs" />
      <Compile Include="Assets\Scripts\Platforms\Vertical.cs" />
      <Compile Include="Assets\Scripts\Player\Animation.cs" />
      <Compile Include="Assets\Scripts\Player\Camera.cs" />
+     <Compile Include="Assets\Scripts\Player\Moneda.cs" />
      <Compile Include="Assets\Scripts\Player\Movements.cs" />
      <Compile Include="Assets\Scripts\Player\bloke_rompe.cs" />
      <Compile Include="Assets\Scripts\Player\destruir.cs" />
