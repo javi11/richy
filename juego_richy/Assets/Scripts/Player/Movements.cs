@@ -15,12 +15,13 @@ public class Movements : MonoBehaviour
 
     private const float FOOT_RADIOUS = 0.08f;
     private const float HEAD_RADIOUS = 0.2f;
-    private const float SPEED_X = 5;
     private const float JUMP_POWER = 18f;
     private const float SWIMMING_POWER = 30f;
+    private const float DEFAULT_SPEED = 5;
 
     private int jumpCounter = 5;
     private int swimCounter = 5;
+    private float speed_x = DEFAULT_SPEED;
 
     private Vector2 initialColliderOffset;
 
@@ -58,7 +59,7 @@ public class Movements : MonoBehaviour
         float inputX = Input.GetAxis("Horizontal");
         float mySpeed = gameObject.GetComponent<Rigidbody2D>().velocity.y;
 
-        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(inputX * SPEED_X, mySpeed, 0);
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(inputX * speed_x, mySpeed, 0);
     }
 
     void jump()
@@ -88,10 +89,13 @@ public class Movements : MonoBehaviour
 
     void swimming()
     {
-        bool inWater = Physics2D.OverlapCircle(foot.position, FOOT_RADIOUS, water);
+        bool inWater = Physics2D.OverlapCircle(foot.position, FOOT_RADIOUS, water) || Physics2D.OverlapCircle(head.position, HEAD_RADIOUS, water);
         if (inWater)
         {
             isSwimming = true;
+
+            speed_x = 1.5f;
+
             if (Input.GetKey("up"))
             {
                 //instrucciones
@@ -102,6 +106,7 @@ public class Movements : MonoBehaviour
         else
         {
             swimCounter = 5;
+            speed_x = DEFAULT_SPEED;
             isSwimming = false;
         }
     }
